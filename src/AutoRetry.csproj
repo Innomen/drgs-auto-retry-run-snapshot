@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net6.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><EnableDefaultItems>true</EnableDefaultItems></PropertyGroup>
+<ItemGroup>
+<Reference Include="Core"><HintPath>$(LoaderRoot)/BepInEx/core/BepInEx.Core.dll</HintPath></Reference>
+<Reference Include="IL2CPP"><HintPath>$(LoaderRoot)/BepInEx/core/BepInEx.Unity.IL2CPP.dll</HintPath></Reference>
+<Reference Include="Harmony"><HintPath>$(LoaderRoot)/BepInEx/core/0Harmony.dll</HintPath></Reference>
+<Reference Include="Interop"><HintPath>$(LoaderRoot)/BepInEx/core/Il2CppInterop.Runtime.dll</HintPath></Reference>
+<Reference Include="Assembly-CSharp"><HintPath>$(LoaderRoot)/BepInEx/interop/Assembly-CSharp.dll</HintPath></Reference>
+<Reference Include="UnityEngine.CoreModule"><HintPath>$(LoaderRoot)/BepInEx/interop/UnityEngine.CoreModule.dll</HintPath></Reference>
+<Reference Include="Il2Cppmscorlib"><HintPath>$(LoaderRoot)/BepInEx/interop/Il2Cppmscorlib.dll</HintPath></Reference>
+<Reference Include="DOTween"><HintPath>$(LoaderRoot)/BepInEx/interop/DOTween.dll</HintPath></Reference>
+<Reference Include="UniTask"><HintPath>$(LoaderRoot)/BepInEx/interop/UniTask.dll</HintPath></Reference>
+<Reference Include="UI"><HintPath>$(LoaderRoot)/BepInEx/interop/FundayFactory.UI.dll</HintPath></Reference>
+</ItemGroup></Project>
